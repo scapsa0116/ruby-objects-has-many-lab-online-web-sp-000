@@ -30,7 +30,7 @@ Song.all.select {|song| song.artist = self}
     song.artist = self
     @@song_count += 1
   end
-def song_count
+def self.song_count
   Song.all.count
   end
 
