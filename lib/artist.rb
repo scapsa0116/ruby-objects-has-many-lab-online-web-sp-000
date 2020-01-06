@@ -12,7 +12,7 @@ class Artist
   end
 
   def songs
-  @songs
+ @son
   end
   
 
