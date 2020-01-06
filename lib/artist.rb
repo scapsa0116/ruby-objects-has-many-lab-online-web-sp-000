@@ -12,7 +12,7 @@ class Artist
   end
 
   def songs
-  songs.add_song_by_name
+add_song_by_name
    
   end
   
