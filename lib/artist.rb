@@ -12,7 +12,7 @@ class Artist
   end
 
   def songs
-add_song_by_name
+  @songs 
    
   end
   
