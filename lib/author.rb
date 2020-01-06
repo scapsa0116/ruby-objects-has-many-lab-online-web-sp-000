@@ -27,9 +27,9 @@ class Author
   end
 
   
-  # def self.post_count
-  # Song.all.count {|song| song.artist == self}
-  # end
+  def self.post_count
+  Song.all.count 
+  end
     
 
 end 
