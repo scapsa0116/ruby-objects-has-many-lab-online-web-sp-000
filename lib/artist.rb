@@ -12,7 +12,7 @@ class Artist
   end
 
   def songs
- @son
+Song.all.select {|song| song.artist = self}
   end
   
 
